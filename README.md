@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-lognormal@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-base-lognormal/tags). For example,
+
+```javascript
 import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-lognormal@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-lognormal@v0.2.1-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-lognormal@esm/index.mjs';
 ```
 
 #### lognormal( mu, sigma )
@@ -390,7 +395,7 @@ var o = rand.toJSON();
 <body>
 <script type="module">
 
-import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-lognormal@v0.2.1-esm/index.mjs';
+import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-lognormal@esm/index.mjs';
 
 var seed;
 var rand;

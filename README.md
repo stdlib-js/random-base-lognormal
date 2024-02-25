@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-lognormal@deno/mod.js';
+import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-lognormal@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-lognormal@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-lognormal@v0.2.1-deno/mod.js';
 ```
 
 #### lognormal( mu, sigma )
@@ -385,7 +385,7 @@ var o = rand.toJSON();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-lognormal@deno/mod.js';
+import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-lognormal@v0.2.1-deno/mod.js';
 
 var seed;
 var rand;

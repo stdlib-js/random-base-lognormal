@@ -441,6 +441,7 @@ for ( i = 0; i < 100; i++ ) {
 -   <span class="package-name">[`@stdlib/random-array/lognormal`][@stdlib/random/array/lognormal]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a lognormal distribution.</span>
 -   <span class="package-name">[`@stdlib/random-iter/lognormal`][@stdlib/random/iter/lognormal]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from a lognormal distribution.</span>
 -   <span class="package-name">[`@stdlib/random-streams/lognormal`][@stdlib/random/streams/lognormal]</span><span class="delimiter">: </span><span class="description">create a readable stream for generating pseudorandom numbers drawn from a lognormal distribution.</span>
+-   <span class="package-name">[`@stdlib/random-lognormal`][@stdlib/random/lognormal]</span><span class="delimiter">: </span><span class="description">generate pseudorandom numbers drawn from a lognormal distribution.</span>
 
 </section>
 
@@ -529,6 +530,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/random/iter/lognormal]: https://github.com/stdlib-js/random-iter-lognormal
 
 [@stdlib/random/streams/lognormal]: https://github.com/stdlib-js/random-streams-lognormal
+
+[@stdlib/random/lognormal]: https://github.com/stdlib-js/random-lognormal
 
 <!-- </related-links> -->
 
